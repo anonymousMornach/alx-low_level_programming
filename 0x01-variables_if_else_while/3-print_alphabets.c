@@ -13,8 +13,12 @@ int main(void)
 	for (i = 0; i < 26; i++)
 	{
 		putchar(alp[i]);
+	}
+	for (i = 0; i < 26; i++)
+	{
 		putchar(capital[i]);
 	}
+
 	putchar('\n');
 	return (0);
 }
