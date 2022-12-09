@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	char alphabet[26] = "abcdefghijklmnopqrst";
-	int i = 0;
-	while (i < 26)
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for(i = 0; i < 26; i++)
 	{
 		putchar(alphabet[i]);
-		i++;
 	}
-
+	putchar('\n');
 	return (0);
 }
