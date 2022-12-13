@@ -6,11 +6,6 @@
  */
 int main(void)
 {
-	int i;
-	for (i = 97; i < 26 ; i++)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
+	print_alphabet();
 	return (0);
 }
