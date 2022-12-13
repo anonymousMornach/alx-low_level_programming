@@ -1,5 +1,5 @@
-#include "main.c"
-#include "_putchar.c"
+#ifndef main.c
+#ifndef _putchar.c
 
 /**
  * File: main.h
