@@ -1,7 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
-#ifndef PUTCHAR_H
-#define PUTCHAR_H
+#include <main.h>
+#include <_putchar.h>
 
 /**
  * File: main.h

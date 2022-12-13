@@ -4,6 +4,14 @@
  */
 int main(void)
 {
-	_putchar("_putchar\n");
+	int str[] = {112, 117, 116, 99, 104, 97, 114};
+	int i, al;
+
+	al = sizeof(str) / sizeof(int);
+	
+	for (i = 0;i < al;i++)
+	{
+		_putchar(str[i]);
+	}	
 	return (0);
 }
