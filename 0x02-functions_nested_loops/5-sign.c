@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * print_sign - Program returns the sign of a number except zero
- * 
- * @c - Integer containing number
+ * print_sign - Program returns the sign of a number except zero.
+ * @n - Integer containing number.
  *
- * Return + if number is greater than zero and  - if number is less than zero
+ * return + if number is greater than zero and  - if number is less than zero.
  */
 int print_sign(int n)
 {
@@ -16,11 +15,11 @@ int print_sign(int n)
 	else if (n == 0)
 	{
 		_putchar(48);
-		return(0);
+		return (0);
 	}
 	else
 	{
 		_putchar(45);
-		return(-1);
+		return (-1);
 	}
 }
