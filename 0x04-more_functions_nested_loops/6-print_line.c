@@ -11,16 +11,9 @@ void print_line(int n);
 {
 	int i;
 
-	if (n <= 0)
+	for (i = 0; i < 10; 1++)
 	{
-		_putchar(10);
+		putchar(95);
 	}
-	else
-	{
-		for (i = 0; i < n; i++)
-		{
-			_putchar(95);
-		}
-		_putchar(10);
-	}
+	_putchar(10);
 }
