@@ -2,8 +2,6 @@
 
 /**
  * print_numbers - Prints 0 - 9 followed by a newline
- *
- * Return: void
  */
 void print_numbers(void)
 {
