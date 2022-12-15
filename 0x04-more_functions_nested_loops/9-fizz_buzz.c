@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints 1 - 100 and fizz for multiples of 3 and buzz for multiples of 5
+ * main - Prints 1 - 100
  * Return: always 0
  */
 int main(void)
